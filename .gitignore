@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large regeneratable data artifacts — run `python run.py` to recreate.
+data/cohort.parquet
+features/features.parquet
+models/oof_predictions_*.parquet
